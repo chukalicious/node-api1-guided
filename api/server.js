@@ -79,6 +79,7 @@ server.delete(`/api/dogs/:id`, async (req, res) => {
   }
 });
 
+//the reason ewhy this wasn't workng for me was the order I had the homey in
 server.put(`/api/dogs/:id`, async (req, res) => {
   const { id } = req.params;
   //here's the required object
